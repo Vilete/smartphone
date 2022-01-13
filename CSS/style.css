@@ -1,20 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
+ html{
+    background: linear-gradient(to bottom right, white, rgba(0,0,0,0.3), #0E143C, #179de9);
+    width: 100%;
+    height: 100%;
+   
+ }
 
 body{
-    color:black;
+
+
+ 
+    font-family: 'Open Sans';
     width: 70%;
     margin: auto;
     padding: 20px 0 20px 0;
     font-size: 16px;
-background-image: url("../images/blue-violet-minimal-gradient-wallpaper-preview.jpg");
-    background-attachment:fixed;
+   
     color: white;
 }
 
 
-#menu{
+
+   
+    /* OU
+    padding-top: 20px;
+    padding-bottom: 20px;
+    */
+
+
+header nav{
     display: flex; 
-    width: 70%;
+    justify-content: space-between;
+    
     margin: 0;
 
    
@@ -24,28 +42,18 @@ background-image: url("../images/blue-violet-minimal-gradient-wallpaper-preview.
     */
 }
 
-#menuecrit{
-    display: flex; 
-    justify-content: space-between;
-    
-    margin: 0;
 
-    padding: 10px 0 20px 0;
-    /* OU
-    padding-top: 20px;
-    padding-bottom: 20px;
-    */
-}
 
+/*Parti HEADER*/
 .logo {
-    width: 150px;
+    width: 120px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid rgba(255, 255, 255, 0.589); /* Applique une bordure en pointillé */
-    padding: 20px;
+    
 }
 
 
@@ -81,16 +89,45 @@ ul {
 /*Boutton*/
 a{
     text-decoration: none;
-    color: #999999;
+    color: #f0f0f0e5;
 }
 
+/*FIN Parti HEADER*/
 
 
-main .Presentation a{
+/*Parti MAIN*/
+ section {
+    
+    display: flex;
+    justify-content: space-between ;
+    margin: auto;
+  
+   
+ 
+
+}
+
+.Iphone{
+    
+    position: relative;
+    padding: 80px ;
+
+}
+
+.Présentation{
+  width: 320px;
+  margin: auto;
+}
+
+.devant{
+
+    position: relative;
+}
+
+main section a{
 
 color: white;
 border-radius: 5px;
-padding: 10px;
 font-size: 1.2rem;   
 padding: 5px;
 
@@ -108,12 +145,16 @@ main .rien{
 }
 
 
+/* FIN Parti MAIN*/
 
 
+/*Parti FOOTER*/
 footer{
-
+    
+    display: flex;
+    justify-content: space-between;
     border-top: 1px solid rgba(255, 255, 255, 0.589);
-    height: 50px;
+    
     color: rgba(255, 255, 255, 0.589); 
     padding: 25px 0;
 }
@@ -121,9 +162,17 @@ footer{
 
 /*Lien du bas*/
 footer nav ul {    
-    text-align: right;
-    display: flex;
+  
+
+    display: flex;    
+    margin: 0; 
     flex-direction: row;
     gap: 20px; /* Séparation entre les éléments */
 }
 
+.logoenbas {
+    width: 60px;
+}
+
+
+/* FIN Parti FOOTER*/
