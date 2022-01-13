@@ -1,0 +1,129 @@
+
+
+body{
+    color:black;
+    width: 70%;
+    margin: auto;
+    padding: 20px 0 20px 0;
+    font-size: 16px;
+background-image: url("../images/blue-violet-minimal-gradient-wallpaper-preview.jpg");
+    background-attachment:fixed;
+    color: white;
+}
+
+
+#menu{
+    display: flex; 
+    width: 70%;
+    margin: 0;
+
+   
+    /* OU
+    padding-top: 20px;
+    padding-bottom: 20px;
+    */
+}
+
+#menuecrit{
+    display: flex; 
+    justify-content: space-between;
+    
+    margin: 0;
+
+    padding: 10px 0 20px 0;
+    /* OU
+    padding-top: 20px;
+    padding-bottom: 20px;
+    */
+}
+
+.logo {
+    width: 150px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.589); /* Applique une bordure en pointillé */
+    padding: 20px;
+}
+
+
+
+/*Bouton Sign In*/
+.Signin{
+    padding: 10px;
+    border: solid white 1px;
+    border-radius: 50px;
+    background-color:transparent /* hexadecimal */
+    
+}
+
+
+
+/*Lien*/
+header nav ul{
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Séparation entre les éléments */
+}
+  
+
+
+/*Lien*/
+ul {
+    list-style: none; /* Enlève les "points" sur le LI */
+}
+ 
+
+
+/*Boutton*/
+a{
+    text-decoration: none;
+    color: #999999;
+}
+
+
+
+main .Presentation a{
+
+color: white;
+border-radius: 5px;
+padding: 10px;
+font-size: 1.2rem;   
+padding: 5px;
+
+}
+main .bleu{
+    
+    background-color: rgba(9, 124, 139, 0.527); /* hexadecimal */
+    border: none;
+ 
+}
+main .rien{
+    border: solid white 1px;
+    background-color:transparent /* hexadecimal */
+    
+}
+
+
+
+
+footer{
+
+    border-top: 1px solid rgba(255, 255, 255, 0.589);
+    height: 50px;
+    color: rgba(255, 255, 255, 0.589); 
+    padding: 25px 0;
+}
+
+
+/*Lien du bas*/
+footer nav ul {    
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Séparation entre les éléments */
+}
+
