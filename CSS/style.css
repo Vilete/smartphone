@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
- html{
-    background: linear-gradient(to bottom right, white, rgba(0,0,0,0.3), #0E143C, #179de9);
-    width: 100%;
-    height: 100%;
-   
- }
+
+
+:root{
+--white: #ffffff;
+--Dark-opacity-30: rgba(0,0,0,0.3);
+--Blue: #0E143C;
+--Blue-light: #179de9;
+--pink-light: #F1C6D7;
+--red-50: rgba(255,0,0,0.5);
+}
+ 
 
 body{
 
+   background: transparent linear-gradient(to bottom right, white, rgba(0,0,0,0.3), #0E143C, #179de9) fixed;
+  /*OU
+    background: transparent linear-gradient(130deg, var(--Blue) 0%, var(--pink-light) 100%);
+*/
 
- 
     font-family: 'Open Sans';
     width: 70%;
     margin: auto;
@@ -27,6 +35,15 @@ body{
     padding-top: 20px;
     padding-bottom: 20px;
     */
+header {
+    display: flex;
+    justify-content: space-between;
+    
+    border-bottom: 1px solid rgba(255, 255, 255, 0.589); /* Applique une bordure en pointillé */
+
+    
+}
+
 
 
 header nav{
@@ -49,18 +66,11 @@ header nav{
     width: 120px;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.589); /* Applique une bordure en pointillé */
-    
-}
-
 
 
 /*Bouton Sign In*/
 .Signin{
-    padding: 10px;
+    padding: 5px 20px;
     border: solid white 1px;
     border-radius: 50px;
     background-color:transparent /* hexadecimal */
@@ -122,16 +132,26 @@ a{
 .devant{
 
     position: relative;
+    top: 40px; left: 60px; 
 }
+
+.gauche{
+    position: relative;
+     left: 120px;
+}
+
 
 main section a{
 
+   
 color: white;
 border-radius: 5px;
 font-size: 1.2rem;   
-padding: 5px;
-
+padding: 5px 10px;
+margin-right: 15px;
 }
+
+
 main .bleu{
     
     background-color: rgba(9, 124, 139, 0.527); /* hexadecimal */
@@ -139,6 +159,7 @@ main .bleu{
  
 }
 main .rien{
+  
     border: solid white 1px;
     background-color:transparent /* hexadecimal */
     
