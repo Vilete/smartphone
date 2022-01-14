@@ -124,26 +124,40 @@ a{
 .Iphone{
     
     position: relative;
-    padding: 80px ;
+    padding: 80px;
 
 }
 
 .Présentation{
-  width: 320px;
+  width: 400px;
   margin: auto;
 }
+
 
 .devant{
 
     position: relative;
-    top: 40px; left: 60px; 
+    top: 40px; right: 155px;
 }
-
 .gauche{
     position: relative;
      left: 120px;
+     filter: drop-shadow(40px 40px 40px var(--Red-opacity-50));
+    }
+
+
+.droite{
+    position: relative;
+     left: 287px;
+    filter: drop-shadow(40px 40px 40px var(--Red-opacity-50));
 }
 
+
+
+.gauche, .droite { 
+    padding: 0 0 40px;
+
+}
 
 main section a{
 
