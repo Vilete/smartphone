@@ -5,17 +5,20 @@
 :root{
 --white: #ffffff;
 --Dark-opacity-30: rgba(0,0,0,0.3);
+--Gray-opacity-50: rgba(233,233,233,0.5);
 --Blue: #0E143C;
 --Blue-light: #179de9;
+--Blue-dark: #00507c;
 --pink-light: #F1C6D7;
---red-50: rgba(255,0,0,0.5);
+--Red-opacity-50: rgba(255,0,0,0.5);
 }
  
 
 body{
 
-   background: transparent linear-gradient(to bottom right, white, rgba(0,0,0,0.3), #0E143C, #179de9) fixed;
-  /*OU
+    background: transparent linear-gradient(to bottom right, rgba(104, 103, 103, 0.37), rgba(0,0,0,0.3), #0E143C, #179de9) fixed;
+
+    /*OU
     background: transparent linear-gradient(130deg, var(--Blue) 0%, var(--pink-light) 100%);
 */
 
@@ -63,7 +66,7 @@ header nav{
 
 /*Parti HEADER*/
 .logo {
-    width: 120px;
+    width: 90px;
 }
 
 
@@ -99,7 +102,7 @@ ul {
 /*Boutton*/
 a{
     text-decoration: none;
-    color: #f0f0f0e5;
+    color: var(--white);
 }
 
 /*FIN Parti HEADER*/
@@ -114,7 +117,8 @@ a{
   
    
  
-
+    border-bottom: 1px solid rgba(255, 255, 255, 0.589);
+    padding: 0 0 200px;
 }
 
 .Iphone{
@@ -174,10 +178,10 @@ footer{
     
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid rgba(255, 255, 255, 0.589);
+  
     
     color: rgba(255, 255, 255, 0.589); 
-    padding: 25px 0;
+    padding: 20px 0 0px;
 }
 
 
